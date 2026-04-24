@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luminous Stories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f7f5;
+            color: #333;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            max-width: 960px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .stories {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        }
+        .story-item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+        }
+        .story-item img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .story-item figcaption {
+            padding: 0.75rem;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Luminous Stories</h1>
+    </header>
+    <main>
+        <section class="stories">
+            <figure class="story-item">
+                <img src="story1.jpg" alt="Story 1" />
+                <figcaption>Story 1</figcaption>
+            </figure>
+            <figure class="story-item">
+                <img src="story2.jpg" alt="Story 2" />
+                <figcaption>Story 2</figcaption>
+            </figure>
+            <figure class="story-item">
+                <img src="story3.jpg" alt="Story 3" />
+                <figcaption>Story 3</figcaption>
+            </figure>
+        </section>
+    </main>
+</body>
+</html>
