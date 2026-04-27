@@ -41,6 +41,56 @@ nav ul li a:hover {
     color: #3a2a24;
 }
 
+/* ── CONTACT FORM ── */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd0c4;
+    border-radius: 4px;
+    font-family: 'Jost', sans-serif;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+    color: #3a2a24;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #c4806a;
+}
+
+label {
+    font-family: 'Jost', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #8a7a72;
+}
+
+button[type="submit"] {
+    padding: 12px 32px;
+    background-color: #3a2a24;
+    color: #fdf8f3;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Jost', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #c4806a;
+}
+
+
+
 /* ── FOOTER ── */
 footer {
     background-color: #3a2a24;
